@@ -1,9 +1,9 @@
 {
-  "name": "csp2-b598-clavaton-lim",
+  "name": "Atelier Patisserie",
   "version": "1.0.0",
   "description": "Booking System MVP requirements",
   "type": "commonjs",
-  "main": "lambda.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@codegenie/serverless-express": "^4.17.1",
     "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
     "dotenv": "^17.2.3",
