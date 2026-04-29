@@ -1,0 +1,9 @@
+{
+  "url": "https://oky7mroeud.execute-api.us-east-2.amazonaws.com/production",
+  "routesPrefix": {
+    "users": "/users",
+    "products": "/products",
+    "orders": "/orders",
+    "cart": "/cart"
+  }
+}
