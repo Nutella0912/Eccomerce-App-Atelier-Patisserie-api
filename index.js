@@ -1,6 +1,3 @@
-const dns = require("dns");
-dns.setServers(["1.1.1.1", "1.0.0.1"]);
-
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -35,5 +32,10 @@ app.use("/cart", cartRoutes);
 app.use('/orders', orderRoutes);
 app.use('/payments', paymentRoutes);
 
+
+const port = process.env.PORT || 3000;
+app.listen(port, '0.0.0.0', () => {
+    console.log(`Server is running on port ${port}`);
+});
 
 module.exports = { app, mongoose };
